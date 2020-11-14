@@ -1,0 +1,185 @@
+* {
+    margin:0px;
+    padding:0px;
+  }
+  body {
+    background:#ddd;
+    font-family:"Raleway";
+  }
+
+  /*.right {
+    position:absolute;
+    top:40%;
+    /*margin-bottom: 5%;
+    left:68%;
+    transform:translate(-50%,-50%);
+  }*/
+
+
+
+  .center {
+    position:absolute;
+    top:130%;
+    margin-bottom: 5%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+  .flex-center {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .list-group {
+    clear: both;
+    width:600px;
+    background:#f5f5f5;
+  }
+  .list-group .list-group-item {
+    display:flex;
+    border-bottom:1px solid #ccc;
+  }
+  .list-group .list-group-item > div {
+    padding:15px 0px;
+  }
+  .list-group .list-group-item .handle {
+    width:50px;
+    background:#eee;
+    border:1px solid #ddd;
+    cursor:pointer;
+  }
+  .list-group .list-group-item .handle i.fa {
+    color:#555;
+  } 
+  .list-group .list-group-item .handle:hover i.fa {
+    color:#111;
+  }
+  .list-group .list-group-item .thumbnail {
+    padding:0px 10px;
+  }
+  .list-group .list-group-item .thumbnail img {
+    width:15px;
+    border-radius:50%;
+  }
+  .list-group .list-group-item .details {
+    flex:1;
+  }
+  .list-group .list-group-item .details h2 {
+    font-size:16px;
+    color:#111;
+    padding:0px 5px 3px;
+  }
+  .list-group .list-group-item .details p {
+    color:#555;
+    font-size:14px;
+    padding:0px 7px;
+  }
+  .list-group .list-group-item .btn {
+    width:50px;
+  }
+  .list-group .list-group-item .btn i.fa {
+    color:#aaa;
+  }
+  .list-group .list-group-item .btn:hover i.fa {
+    color:#00acee;
+  }
+
+
+
+
+
+
+  /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  background-color: #000;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 12px;
+  width: 40%;
+  height: 30px;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

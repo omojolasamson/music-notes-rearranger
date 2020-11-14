@@ -1,0 +1,454 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="index.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.10.2/Sortable.min.js" integrity="sha512-ELgdXEUQM5x+vB2mycmnSCsiDZWQYXKwlzh9+p+Hff4f5LA+uf0w2pOp3j7UAuSAajxfEzmYZNOOLQuiotrt9Q==" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!--<div class="right">
+          <i style="font-size:70px;" class="fa fa-play-circle"></i>
+        </div>-->
+        <div class="center">
+          <h1 style="text-align: center; margin-bottom: 10px">Music Notes Arranger</h1>
+
+          <button class="accordion">Direction (Click on this for directions)</button>
+          <div  style="margin-bottom: 16px" class="panel">
+            <p>Information on how to use, email and link is included.<br></p>
+          </div>
+          <div>
+            <div style="float: left; margin-top: 9px;" class="tooltip">Hint! (Hover over this for hint)
+              <span class="tooltiptext">You can hold and drag any note to any position you want</span>
+            </div>
+            
+            <div style="float: right" class="right">
+              <i style="font-size:70px; margin-bottom: 10px;" class="fa fa-play-circle"></i>
+            </div>
+
+          </div>
+            
+
+
+
+
+
+            <div class="list-group" id="player-list">
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>F#3 E4</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>F#3 E4</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+
+              </div>
+
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>F#3 E4</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>F#3 C4</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>F#3 C4</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>G3 B3 G4</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>G3</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>E3 C4</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>C3 G3</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>G2 E3</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>C3 A3</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>D3 B3</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>C#3 A#3</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>C3 A3</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>A3 G3</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>G3 E4</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>B3 G4</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>C4 A4</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>A3 F4</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>B3 G4</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>A3 E4</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>E3 C4</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>F3 D4</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+              <div class="list-group-item">
+                <div class="handle flex-center">
+                  <i class="fa fa-bars"></i>
+                </div>
+                <div class="thumbnail flex-center">
+                  <img src="images/note.png" alt="">
+                </div>
+                <div class="details">
+                  <h2>D3 B3</h2>
+                </div>
+                <div class="btn flex-center">
+                  <i class="fa fa-play"></i>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+
+          <script>
+                let player = document.getElementById("player-list");
+                new Sortable(player,{      
+                animation:200
+                })
+
+
+
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                      panel.style.maxHeight = null;
+                    } else {
+                      panel.style.maxHeight = panel.scrollHeight + "px";
+                    }
+                  });
+                }
+          </script>
+    </body>
+</html>
