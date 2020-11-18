@@ -17,7 +17,15 @@
     margin-bottom: 5%;
     left:25%;*/
     width: 60%;
-  }*/
+  }
+
+  .center h1, .center .accordion{
+    width: 60%;
+  }
+
+
+
+
   .flex-center {
     display:flex;
     justify-content:center;
