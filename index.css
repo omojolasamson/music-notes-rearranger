@@ -50,7 +50,7 @@
     padding:15px 0px;
   }
   .list-group .list-group-item .handle {
-    width:50px;
+    width:15%;
     background:#eee;
     border:1px solid #ddd;
     cursor:pointer;
@@ -75,8 +75,7 @@
     font: size 5%;
     color:#111;
     padding:0px 5px 3px;
-    padding-top: 10%;
-    margin-left: 5%;
+    /*padding-top: 10%;*/
     /*margin-top: 20px;*/
     /*margin: auto 0;*/
   }
