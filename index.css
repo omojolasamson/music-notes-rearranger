@@ -43,6 +43,7 @@
     border-bottom:1px solid #ccc;
     height: 10%;
     line-height: 10%;
+    vertical-align: middle;
   }
   .list-group .list-group-item > div {
     padding:15px 0px;
