@@ -41,6 +41,8 @@
   .list-group .list-group-item {
     display:flex;
     border-bottom:1px solid #ccc;
+    height: 10%;
+    line-height: 10%;
   }
   .list-group .list-group-item > div {
     padding:15px 0px;
@@ -199,12 +201,12 @@
 
 
 
-@media screen and (min-width: 320px) and (min-width: 980px) {
+/*@media screen and (min-width: 320px) and (min-width: 980px) {
   
   body {
     background:#ddd;
     font-family:"Raleway";
-    /*zoom: 200%;*/
+    /*zoom: 200%;
   }
   
   .center {
@@ -225,7 +227,7 @@
     padding-top: 12px;
     width: 70%;
     height: 30px;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text 
   }
 
   .center h1{
@@ -234,7 +236,7 @@
 
 
 
-}
+}*/
 
 
 
