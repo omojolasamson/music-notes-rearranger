@@ -223,10 +223,17 @@
 }
 
 
-@media screen and (min-width: 1000px) {
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) {
   .center {
     position:absolute;
-    top: 100%;
+    top: 80%;
     margin-bottom: 5%;
     left:50%;
     transform:translate(-50%,-50%);
@@ -261,14 +268,10 @@
 }
 
 
-
-
-
-
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1000px) {
   .center {
     position:absolute;
-    top: 80%;
+    top: 100%;
     margin-bottom: 5%;
     left:50%;
     transform:translate(-50%,-50%);
