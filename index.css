@@ -42,9 +42,8 @@
     display:flex;
     border-bottom:1px solid #ccc;
     height: 10%;
-    line-height: 10%;
+    /*line-height: 10%;*/
     
-
 
   }
   .list-group .list-group-item > div {
@@ -76,7 +75,7 @@
     font-size:16px;
     color:#111;
     padding:0px 5px 3px;
-    padding-top: 10%;
+    margin-top: 2%;
   }
   .list-group .list-group-item .details p {
     color:#555;
