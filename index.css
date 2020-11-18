@@ -71,10 +71,11 @@
   .list-group .list-group-item .details {
     flex:1;
   }
-  .list-group .list-group-item .details h2 {
+  .list-group .list-group-item .details div {
     font: size 5%;
     color:#111;
     padding:0px 5px 3px;
+    width: 100%;
     /*padding-top: 10%;*/
     /*margin-top: 20px;*/
     /*margin: auto 0;*/
