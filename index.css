@@ -233,7 +233,7 @@
 }
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .center {
     position:absolute;
     top: 100%;
