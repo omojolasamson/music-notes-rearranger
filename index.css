@@ -259,3 +259,45 @@
   }
 
 }
+
+
+
+
+
+
+@media screen and (min-width: 320px) {
+  .center {
+    position:absolute;
+    top: 80%;
+    margin-bottom: 5%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+
+  .list-group .list-group-item {
+    display:flex;
+    min-height: 100px;
+    border-bottom:1px solid #ccc;
+  }
+
+  .list-group .list-group-item .handle {
+    width:50px;
+    background:#eee;
+    border:1px solid #ddd;
+    cursor:pointer;
+  }
+
+  .details{
+    vertical-align: middle;
+    font-size: 380px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+
+
+  .list-group .list-group-item .details h2 {
+    vertical-align: middle;
+    font-size: 30px;
+  }
+
+}
