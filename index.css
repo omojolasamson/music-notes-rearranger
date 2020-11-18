@@ -188,7 +188,7 @@
 @media screen and (max-width: 1000px) {
   .center {
     position:absolute;
-    top: 60%;
+    top: 100%;
     margin-bottom: 5%;
     left:50%;
     transform:translate(-50%,-50%);
