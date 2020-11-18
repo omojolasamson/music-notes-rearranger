@@ -75,7 +75,8 @@
     font: size 5%;
     color:#111;
     padding:0px 5px 3px;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
+    margin: auto 0;
   }
   .list-group .list-group-item .details p {
     color:#555;
