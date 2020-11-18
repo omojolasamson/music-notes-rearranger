@@ -199,4 +199,11 @@
     min-height: 300px;
     border-bottom:1px solid #ccc;
   }
+
+  .list-group .list-group-item .handle {
+    width:100px;
+    background:#eee;
+    border:1px solid #ddd;
+    cursor:pointer;
+  }
 }
