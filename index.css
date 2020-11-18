@@ -15,8 +15,11 @@
   .center {
     /*position:absolute;
     margin-bottom: 5%;*/
-    left:25%;
+    /*left:25%;*/
     width: 60%;
+    display: flex;
+    justify-content: center;
+
   }
 
   .center h1, .center .accordion{
