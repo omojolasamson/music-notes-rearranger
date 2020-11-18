@@ -1,3 +1,28 @@
+@media screen and (max-width: 992px) {
+  
+  body{
+    zoom: 200%;
+  }
+
+
+  .center {
+    width: 90%;
+  }
+
+  .tooltip{
+    width: 70%;
+  }
+
+  .center h1{
+    font-size: 23px;
+  }
+
+ 
+
+}
+
+
+
 * {
     margin:0px;
     padding:0px;
@@ -199,28 +224,7 @@
 
 
 
-@media screen and (max-width: 992px) {
-  
-  body{
-    zoom: 200%;
-  }
 
-
-  .center {
-    width: 90%;
-  }
-
-  .tooltip{
-    width: 70%;
-  }
-
-  .center h1{
-    font-size: 23px;
-  }
-
- 
-
-}
 
 
 
