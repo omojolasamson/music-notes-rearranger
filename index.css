@@ -12,11 +12,11 @@
 
 
 
-  .center {
+ /* .center {
     position:absolute;
     margin-bottom: 5%;
     left:25%;
-  }
+  }*/
   .flex-center {
     display:flex;
     justify-content:center;
