@@ -193,4 +193,10 @@
     /*left:50%;*/
     transform:translate(-50%,-50%);
   }
+
+  .list-group .list-group-item {
+    display:flex;
+    height: 4%;
+    border-bottom:1px solid #ccc;
+  }
 }

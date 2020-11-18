@@ -20,7 +20,7 @@
           </div>
           <div>
             <div style="float: left; margin-top: 9px;" class="tooltip">Hint! (Hover over this for hint)
-              <span class="tooltiptext">You can hold and drag any note to any position you want</span>
+              <span class="tooltiptext">Use the handles on the left to hold and drag any note to any position you want</span>
             </div>
             
             <div style="float: right" class="right">
@@ -425,13 +425,14 @@
 
             </div>
           </div>
-          <div style="position:absolute; top:265%; margin-left: 40%; text-align: center;">mojolasamsonade@gmail.com</div>
+          
 
 
 
           <script>
                 let player = document.getElementById("player-list");
                 new Sortable(player,{      
+                handle: '.handle',
                 animation:200
                 })
 
