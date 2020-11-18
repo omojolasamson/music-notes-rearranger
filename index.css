@@ -211,6 +211,13 @@
     vertical-align: middle;
     font-size: 380px;
     font-weight: 700;
-    margin-top: 28px;
+    /*margin-top: 28px;*/
   }
+
+
+  .list-group .list-group-item .details h2 {
+    vertical-align: middle;
+    font-size: 380px;
+  }
+
 }
