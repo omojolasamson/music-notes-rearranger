@@ -9,22 +9,13 @@
     font-family:"Raleway";
   }
 
-  /*.right {
-    position:absolute;
-    top:40%;
-    /*margin-bottom: 5%;
-    left:68%;
-    transform:translate(-50%,-50%);
-  }*/
 
 
 
   .center {
     position:absolute;
-    /*top:130%;*/
     margin-bottom: 5%;
-    left:50%;
-    /*transform:translate(-50%,-50%);*/
+    left:30%;
   }
   .flex-center {
     display:flex;
@@ -33,7 +24,7 @@
   }
   .list-group {
     clear: both;
-    width:80%;
+    width:200p%;
     background:#f5f5f5;
   }
   .list-group .list-group-item {
