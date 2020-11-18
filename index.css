@@ -183,3 +183,14 @@
   visibility: visible;
   opacity: 1;
 }
+
+
+@media screen and (max-width: 540px) {
+  .center {
+    position:absolute;
+    top: 2%;
+    margin-bottom: 5%;
+    /*left:50%;*/
+    transform:translate(-50%,-50%);
+  }
+}
