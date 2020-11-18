@@ -190,13 +190,13 @@
     position:absolute;
     top: 60%;
     margin-bottom: 5%;
-    /*left:50%;*/
+    left:0%;
     transform:translate(-50%,-50%);
   }
 
   .list-group .list-group-item {
     display:flex;
-    min-height: 100px;
+    min-height: 80px;
     border-bottom:1px solid #ccc;
   }
 
