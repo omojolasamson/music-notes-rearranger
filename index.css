@@ -201,7 +201,7 @@
   }
 
   .list-group .list-group-item .handle {
-    width:100px;
+    width:50px;
     background:#eee;
     border:1px solid #ddd;
     cursor:pointer;
