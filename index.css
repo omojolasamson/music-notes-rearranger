@@ -223,7 +223,7 @@
 }
 
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 640px) {
   .center {
     position:absolute;
     top: 2%;
