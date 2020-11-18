@@ -196,7 +196,7 @@
 
   .list-group .list-group-item {
     display:flex;
-    min-height: 48px;
+    min-height: 300px;
     border-bottom:1px solid #ccc;
   }
 }
