@@ -23,6 +23,31 @@
 
 
 
+@media only screen and (min-width: 992px) and (max-width:2000px) {
+  
+  body{
+    zoom: normal !important;
+  }
+
+
+  .center {
+    width: 60% !important;
+  }
+
+  .tooltip{
+    width: 100%;
+  }
+
+  .center h1{
+    font-size: 23px;
+  }
+
+ 
+
+}
+
+
+
 * {
     margin:0px;
     padding:0px;
