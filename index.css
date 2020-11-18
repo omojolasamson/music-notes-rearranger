@@ -206,4 +206,8 @@
     border:1px solid #ddd;
     cursor:pointer;
   }
+
+  .details{
+    vertical-align: middle;
+  }
 }
