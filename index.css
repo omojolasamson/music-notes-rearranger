@@ -153,6 +153,8 @@
   vertical-align: middle;
   padding-top: 12px;
   width: 40%;
+  font-weight: 900;
+  font-size: 140%;
   height: 30px;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
