@@ -177,7 +177,7 @@
   z-index: 1;
   top: -5px;
   left: 180%;
-  margin-left: -60px;
+  /*margin-left: -60px;*/
 
   /* Fade in tooltip */
   opacity: 0;
